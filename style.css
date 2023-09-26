@@ -3,19 +3,19 @@
 @import url("styles/carrossel.css");
 @import url("styles/topicos.css");
 @import url("styles/contato.css");
-@import url("styles/rodapé.css");
+@import url("styles/rodape.css");
 
 :root {
-    --cor-de-fundo: #ffffff;
-    --branco: #FFFFFF;
-    --laranja: #0407d3;
-    --azul-degrade: linear-gradient(97.54deg, #355670 35.49%, #326589 165.37%);
+    --cor-de-fundo: #bdb997;
+    --branco: #ffffff;
+    --laranja: #000000;
+    --azul-degrade: linear-gradient(97.54deg, #000000 35.49%, #000000 165.37%);
     --fonte-principal: "Poppins";
-    --azul: #002F52;
+    --azul: #c0bc9c;
     --fonte-secundario: "Josefin Sans";
     --preto: #000000;
     --cinza: #474646;
-    --cinza-claro: #858585;
+    --cinza-claro: #8f8972;
 }
 
 body {
@@ -144,7 +144,7 @@ body {
         display: none;
     }
 
-    .opcoes__botão:checked~.lista-menu {
+    .opcoes__botao:checked~.lista-menu {
         display: block;
         width: auto;
     }
@@ -272,6 +272,9 @@ body {
 
 .swiper-slide img {
     width: 50%;
+    height: 100;
+    margin: auto;
+    vertical-align: top;
 }
 
 .swiper-button-prev,
@@ -289,6 +292,8 @@ body {
     justify-content: space-between;
     margin-bottom: 0.5em;
 }
+
+
 
 .card__botoes {
     display: flex;
@@ -497,3 +502,6 @@ hr {
     }
 }
 
+.descricao__imagem {
+    width: 50%;
+}
